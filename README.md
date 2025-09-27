@@ -2,7 +2,7 @@
 
 Este proyecto es un bot para WhatsApp que detecta URLs de YouTube en los mensajes recibidos y descarga el audio de los videos, enviándolo de vuelta como archivo MP3 al chat. Utiliza la librería `neonize` para interactuar con WhatsApp y `yt-dlp` para descargar y convertir videos de YouTube.
 
-A continuación se explica el funcionamiento del archivo principal, casi línea a línea:
+A continuación se explica el funcionamiento del archivo principal:
 
 ---
 
@@ -195,11 +195,6 @@ if __name__ == "__main__":
 - `neonize`
 - `yt-dlp`
 - `ffmpeg` (para conversión de audio)
-
-Instala dependencias con:
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
